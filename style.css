@@ -1,27 +1,4 @@
-#navbar {
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: -50px;
-    width: 100%;
-    display: block;
-    transition: top 0.3s;
-    z-index: 2;
-  }
-  
-  #navbar a {
-    float: left;
-    display: block;
-    color: #000000;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  
-  #navbar a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+
 .btn{
     opacity: 1;
     transition: 0.1s;
@@ -277,4 +254,10 @@ padding-top: 60px;
   #hd a:hover {
     background-color: #ddd;
     color: black;
+  }
+  #opacity{
+    opacity: .5;
+  }
+  #opacity:hover{
+    opacity: 1;
   }
