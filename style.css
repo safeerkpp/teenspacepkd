@@ -261,3 +261,13 @@ padding-top: 60px;
   #opacity:hover{
     opacity: 1;
   }
+
+  .video-banner {
+    position: relative;
+  }
+  .video-banner .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-ind
